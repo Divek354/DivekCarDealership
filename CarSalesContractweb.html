@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/jpg" rel="icon" href="ProfilePic.jpg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Bootstrap 4</title>
+    <style>
+        body{
+           background-color: lightskyblue;
+           font-size: 30px;
+         }
+     </style>
+ </head>
+ <body>
+     <!-- Navigation Bar with dropdown-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <img class="navbar-brand" src="carlogo.PNG" height="100" width="200"/>
+        <a class="navbar-brand" href="index.html">Divek's Car Dealership</a>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Divek">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="Divek">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About Us.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact Us.html">Contact us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Printable Purchase Documents</a>
+            <div class="dropdown-menu">
+                <a href="Warranty.png" class="dropdown-item">Buyer's Warranty Sheet</a>
+                <a href="ConsumerBORweb.html" class="dropdown-item">Consumer Bill of Rights for Used Cars</a>
+                <a href="CarSalesContract.jpg" class="dropdown-item">Car Sales Contract</a>
+            </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Membership</a>
+              <div class="dropdown-menu">
+                  <a href="Sign up membership.html" class="dropdown-item">Sign Up to become a Member</a>
+                  <a href="Loginform.html" class="dropdown-item">Login to your Membership</a>
+                  <a href="benefitsofmemeber.html" class="dropdown-item">Benefits of being a Member</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Offices Locations</a>
+            <div class="dropdown-menu">
+                <a href="Mumbailoc.html" class="dropdown-item">Mumbai</a>
+                <a href="Sydenyloc.html" class="dropdown-item">Sydney</a>
+                <a href="Nycloc.html" class="dropdown-item">New York City</a>
+                <a href="Parisloc.html" class="dropdown-item">Paris</a>
+            </div>
+          </li>
+  
+        </ul>
+      </div>
+    </nav>
+     <br/><br/><br/><BR/><BR/>
+     <div class="container text-center" style="background-color: lightcyan;">   
+         <h1 style="font-family: 'Blackadder ITC';"><u>This is the Contract of Your Car Purchase</u></h1>
+    
+    <img src="CarSalesContract.jpg" height="900px" width="700">
+    </div>
+</body>
+</html>
